@@ -1,0 +1,37 @@
+h1{
+    text-shadow: 0px 0px 20px black;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Great Vibes';
+    font-size: 50px;
+    
+    
+}
+h3{
+    font-family: 'Noto Nastaliq Urdu';
+    text-align: center;
+}
+div{
+    width: 350px;
+    height: 350px;
+    background: gray;
+    white-space: pre;
+    border-radius: 50px 0px;
+    margin:auto;
+    box-shadow: 0px 0px 50px black inset ,0px 0px 50px black;
+}
+label{
+    font-family: 'Great Vibes';
+    
+}
+body{
+    background-image: url(stock-photo-online-shopping-and-e-commerce.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+button{
+    box-shadow: 0px 0px 50px black inset,0px 0px 50px black;
+    border-radius: 10px;color: white ;
+}
+    

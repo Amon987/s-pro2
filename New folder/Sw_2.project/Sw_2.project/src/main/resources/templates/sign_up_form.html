@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="signup_form.css">
+    
+            <title >Abyss Core</title>
+</head>
+<body>
+    <h1>Abyss Core</h1>
+    <h3>للتداول بين الشركات والاشخاص</h3>
+    <div action="/v/signup-account" th:object="${account_model}" method="post">
+
+
+    <label>Username:</label>               <input type="text"placeholder="Username"style="border-radius: 20px; " th:field="*{username}">
+
+    <label>Email:</label>                      <input type="text"placeholder="Email"style="border-radius: 20px; " th:field="*{Email}">
+
+    <label>tel:</label>                           <input type="number"placeholder="phone number"style="border-radius: 20px; " th:field="*{phone_number}">
+
+    <label>Password:</label>                <input type="password"placeholder="password"style="border-radius: 20px; " th:fieldt="*{password}">
+
+    <label>conform Password :</label><input type="password" placeholder="conform password" style="border-radius: 20px; ">
+
+                    <button type="submit">sign up</button>   <label >account type:</label><select th:field="*{account_type}">
+                                                                    <option value="person">person</option>
+                                                                    <option value="company">company</option>
+                                                                    <option value="admin">admin</option>
+                                                                  </select>
+              <a href="/">log in</a>
+
+    </div>
+   
+
+
+
+
+
+
+</body>
+</html>
